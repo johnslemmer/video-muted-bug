@@ -1,5 +1,7 @@
 Reproduction repo for a bug I found in NextJS's Router Cache (I'm guessing).
 
+Also deployed at https://video-muted-bug.vercel.app/ and ready to demonstrate.
+
 Steps to recreate:
 
 - Easily seen by loading the home page (you will see a video auto play and be muted)
@@ -11,4 +13,4 @@ Steps to recreate:
 
 Code is pretty simple, the weird `innerHTML` set is done to show how not having
 `muted` cached properly can lead to undesirable audio playing on, for all
-intents and purposes, was a muted video from the developer's perspective.
+intents and purposes, what was a muted video from the developer's perspective.
